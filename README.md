@@ -71,5 +71,8 @@
       }
     };
   </script>
+  <footer>
+    <p>&copy; Olumuyiwa Akinde, oa356, 2025 </p>
+  </footer>
 </body>
 </html>
