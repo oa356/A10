@@ -63,10 +63,10 @@
         // If cookie exists, display it
         display.textContent = "Welcome back, " + username + "!";
       } else {
-        // If cookie doesn't exist, create one
-        username = "User" + Math.floor(Math.random() * 1000); // Random username
+        // If cookie doesn't exist, create one with the value "oa356"
+        username = "oa356";
         setCookie("username", username, 7); // Cookie valid for 7 days
-        display.textContent = "Cookie has been set! Reload the page.";
+        display.textContent = "Cookie has been set with username 'oa356'. Reload the page.";
       }
     };
   </script>
